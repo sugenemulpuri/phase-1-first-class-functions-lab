@@ -4,7 +4,6 @@
 const returnFirstTwoDrivers = (driversArray) => {
     const returnFirstTwoDrivers = [driversArray[0], driversArray[1]]
     return returnFirstTwoDrivers.slice(0,2)
-    //return driversArray.slice(0,2)
 }
 
 const returnLastTwoDrivers = (driversArray) => {
@@ -21,13 +20,6 @@ const createFareMultiplier = (fareMultiplier) => {
     }
 }
 
-// const fareDoubler = (fare) => {
-//     //return a function where the fareMultiplier is 2
-//     const twoMultiplier = createFareMultiplier(2);
-//     console.log(twoMultiplier)
-//     return twoMultiplier;
-
-// }
 
 const fareDoubler = createFareMultiplier(2);
 
